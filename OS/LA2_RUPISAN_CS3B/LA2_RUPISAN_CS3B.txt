@@ -1,0 +1,152 @@
+PC@CodenameMIK02 MINGW64 ~/Desktop (main)
+$ cd ..
+
+PC@CodenameMIK02 MINGW64 ~ (main)
+$ cd ~/Desktop
+
+PC@CodenameMIK02 MINGW64 ~/Desktop (main)
+$ mkdir "LQ1_CS3B_RUPISAN" && mkdir -p ~/Desktop/"LQ1_CS3B_RUPISAN"/"Major Subjects" ~/Desktop/"LQ1_CS3B_RUPISAN"/"Minor Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop (main)
+$ cd "LQ1_CS3B_RUPISAN"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ mkdir "Major Subjects/"Networks" "Major Subjects"/SoftEngr "Major Subjects"/PL "Major Subjects"/Automata "Major Subjects"/OS
+> ^C
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ mkdir "Major Subjects/"Networks" "Major Subjects"/SoftEngr "Major Subjects"/PL "Major Subjects"/Automata "Major Subjects"/OS
+> ^C
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ cd "Major Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Major Subjects (main)
+$ mkdir -p "Networks" "SoftEngr" "PL" "Automata" "OS"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Major Subjects (main)
+$ cp -r Networks ~/Desktop/"LQ1_CS3B_RUPISAN"/"Minor Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Major Subjects (main)
+$ cp -r SoftEngr ~/Desktop/"LQ1_CS3B_RUPISAN"/"Minor Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Major Subjects (main)
+$ cp -r PL ~/Desktop/"LQ1_CS3B_RUPISAN"/"Minor Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Major Subjects (main)
+$ cd ~/Desktop/"LQ1_CS3B_RUPISAN"/"Minor Subjects"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv Networks "Communicating Effectively" && mv PL "Life and Works of Rizal"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mkdir -p SoftEngr/SampleFolder
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv -r SoftEngr/SampleFolder "Life and Works of Rizal"
+mv: unknown option -- r
+Try 'mv --help' for more information.
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv SoftEngr/SampleFolder "Life and Works of Rizal"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv "Life and Works of Rizal"/SampleFolder ~/Desktop/LQ1_CS3B_RUPISAN/"Minor Subjects" && rm "Life and Works of Rizal"
+rm: cannot remove 'Life and Works of Rizal': Is a directory
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv -r SoftEngr/SampleFolder "Life and Works of Rizal"
+mv: unknown option -- r
+Try 'mv --help' for more information.
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv SoftEngr/SampleFolder "Life and Works of Rizal"
+mv: cannot stat 'SoftEngr/SampleFolder': No such file or directory
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv SoftEngr/SampleFolder "Life and Works of Rizal"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ mv "Life and Works of Rizal"/SampleFolder ~/Desktop/LQ1_CS3B_RUPISAN/"Minor Subjects" && rmdir "LIfe and Works of Rizal"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN/Minor Subjects (main)
+$ cd ~/Desktop/"LQ1_CS3B_RUPISAN"/
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ cat > "classmate info.txt"
+
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ rm "classmate info.txt
+>
+>
+> ^C
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ rm "classmate info.txt"
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ cat > "student info.txt"
+Christian D. Rupisan
+Darapidap, Candon City, Ilocos Sur
+December 2, 2003
+Ian
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ cat > "classmate info.txt"
+Adrian Cedric O. Calindas
+Bagani Gabor, Candon City, Ilocos Sur
+April 23, 2004
+AC
+
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ cp -r "student info.txt" "Major Subjects"/Automata && cp -r "student info.txt" "Major Subjects"/Networks && cp -r "student info.txt" "Major Subjects"/OS && cp -r "student info.txt" "Major Subjects"/PL && cp -r "student info.txt" "Major Subjects"/SoftEngr && cp -r "classmate info.txt" "Minor Subjects"/"Communicating Effectively" && cp -r "classmate info.txt" "Minor Subjects"/SampleFolder && cp -r "classmate info.txt" "Minor Subjects"/SoftEngr
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ fc "student info.txt"
+bash: fc: no command found
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ fc "Major Subjects"/PL/"student info.txt" "Minor Subjects"/SoftEngr/"classmate info.txt"
+bash: fc: no command found
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ diff "Major Subjects"/PL/"student info.txt" "Minor Subjects"/SoftEngr/"classmate info.txt"
+1,4c1,4
+< Christian D. Rupisan
+< Darapidap, Candon City, Ilocos Sur
+< December 2, 2003
+< Ian
+\ No newline at end of file
+---
+> Adrian Cedric O. indalindas
+> Bagani Gabor, Candon City, Ilocos Sur
+> April 23, 2004
+> AC
+
+PC@CodenameMIK02 MINGW64 ~/Desktop/LQ1_CS3B_RUPISAN (main)
+$ tree
+.
+|-- Major Subjects
+|   |-- Automata
+|   |   `-- student info.txt
+|   |-- Networks
+|   |   `-- student info.txt
+|   |-- OS
+|   |   `-- student info.txt
+|   |-- PL
+|   |   `-- student info.txt
+|   `-- SoftEngr
+|       `-- student info.txt
+|-- Minor Subjects
+|   |-- Communicating Effectively
+|   |   `-- classmate info.txt
+|   |-- SampleFolder
+|   |   `-- classmate info.txt
+|   `-- SoftEngr
+|       `-- classmate info.txt
+|-- classmate info.txt
+`-- student info.txt
+
+10 directories, 10 files
